@@ -1,0 +1,30 @@
+*{
+    background-color: cornflowerblue;
+}
+
+h1 {
+    color: rgb(12, 156, 108);
+    background-color: rgb(180, 243, 243);
+}
+.pastas a{
+    background-color: rgb(180, 243, 243);
+}
+
+.cabecalho {
+    background-color: rgb(180, 243, 243);
+    display: flex;
+    justify-content: space-between;
+}
+.pastas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(180, 243, 243);
+
+}
+.playstore{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
