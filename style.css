@@ -1,5 +1,6 @@
 *{
     background-color: #6495ed;
+    font-family: "Brush Script MT", cursive;
 }
 
 h1 {
@@ -11,9 +12,19 @@ h2{
 border-style: inset;
 background-color: #b4f3f3;
 }
+
 a{
 font-size: larger;
 }
+
+a:link{
+    color:#0c9c6c;
+}
+
+a:visited{
+    color:#0c9c6c;
+}
+
 .pastas a{
     background-color: #b4f3f3;
 }
@@ -31,7 +42,23 @@ font-size: larger;
     flex-direction: column;
     justify-content: space-evenly;
     background-color: #b4f3f3;
-
+}
+.steam{
+    position: relative;
+}
+.steam h2{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    text-align: center;
+    opacity: 0;
+}
+.steam:hover h2{
+    opacity: 1;
+}
+.steam:hover img{
+    opacity: 0.33;
 }
 .playstore{
     background-color: #6495ed;
